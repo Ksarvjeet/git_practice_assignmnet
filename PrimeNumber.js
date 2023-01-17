@@ -1,3 +1,4 @@
+
 //check given number is prime or not
 
 let num=13;
@@ -14,3 +15,4 @@ let count=0;
     }else{
         console.log("No");
     }
+
