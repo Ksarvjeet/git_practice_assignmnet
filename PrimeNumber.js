@@ -1,12 +1,18 @@
-let n=25;
-let prime= true;
 
-for(let i=2; i<n; i++ )
-{
-  if(n%i==0)
-{
-   prime=false;
-}
+//check given number is prime or not
 
-}
-(prime==false) ? console.log("Not a Prime Number") : console.log("Prime number");
+let num=13;
+
+
+let count=0;
+    for(let i=2;i<=Math.sqrt(num);i++){
+        if(num%i==0){
+            count++;
+        }
+    }
+    if(count==0){
+        console.log("Yes");
+    }else{
+        console.log("No");
+    }
+
